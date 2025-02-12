@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        
+         @layer components {
+        .greyb {
+            @apply border-[rgba(171,178,191,1)];
+            }
+        .greyt{
+            @apply text-[rgba(171,178,191,1)]
+        }
+        .purpleb{
+            @apply border-[rgba(199,120,221,1)]
+        }  
+        .purplet{
+            @apply text-[rgba(199,120,221,1)]
+        }  
+        }
+    </style>
+</head>
+
+<body class="bg-[rgba(40,44,51,1)] w-[px]  h-[3192px] font-[Fira Code] ">
+    <!--header -->
+    <div class="w-[1024px] h-[61px] flex justify-between mx-[171px] items-end">
+            <div class="w-[72px] h-[21px] flex items-center gap-2">
+                <img  class="w-4 h-4" src="./Images/Logo.svg" alt="">
+                <p class="text-[16px] text-white leading-5">Nusratilla</p>
+            </div>
+            <ul class="flex gap-8 ">
+                <p class="text-white"><span class="text-[rgba(199,120,221,1)]">#</span>home</p>
+                <p class="greyt"><span class="text-[rgba(199,120,221,1)]">#</span>works</p>
+                <p class="greyt"><span class="text-[rgba(199,120,221,1)]">#</span>about-me</p>
+                <p class="greyt"><span class="text-[rgba(199,120,221,1)]">#</span>contacts</p>
+                <li class="w-[34px] flex items-center greyt gap-x-1 "><span class="w-[20px] h-[21px]" >EN</span><img class="w-[12px] h-[7px] " src="Images/Group 58.svg" alt=""></li>
+            </ul>
+    </div>
+    <img class="w-[32px] h-[311px] right-[18px] ml-4 items-start content-start mt-[-61px]" src="/Images/media.svg" alt="">
+    <!--first information-->
+    <div class="w-[1024px] h-[423px] flex mt-[-188px] content-between items-center mx-[171px]">
+        <div class="w-[537px] h-[227px]  ">
+            <p class="h-[84px] w-[537px] text-white font-[600] text-[32px] leadin-[42px]">Nusratilla —<span class="purplet">back-end</span>,<br><span class="text-[rgba(199,120,221,1)]"> front-end dasturchi</span></p>
+            <p class="w--[463px] h-[50px] greyt text-[16px] mt-[32px] mb-6">U texnologiyalar va ijod uyg‘unlashgan zamonaviy va  <br>
+                moslashuvchan veb-saytlar yaratadi.</p>
+            <button class="w-[148px] h-[37px] text-white purpleb border-[1px] gap-[10px]">Contact me!!</button>
+        </div >
+        <div>
+             <img class="w-[469px] h-[386px]" src="/Images/Image.svg" alt="">
+             <div class="w-[402px] h-[37px] border greyb flex items-center gap-[10px] mt-2 ml-[31px] ">
+                <div class="w-4 h-4 bg-[rgba(199,120,221,1)] ml-2"></div>
+                <p class="greyt"> Currently working on <span class="text-white">Portfolio</span></p>
+             </div>
+            </div>
+    </div>
+    <!--quote-->
+    <div class="w-[712px] h-[158px] text-white mt-[112px] mx-[327px]">
+        <p class="h-[95px] text-[32px] border greyb p-[32px]">Ko‘proq kod – ko‘proq xatolik.</p>
+        <p class=" gap-[10px] p-3 text-[24px] w-[162px] h-[63px] border greyb  ml-[550px] ">- Dr. Who</p>
+    </div>
+    <!--projects-->
+    <div class="w-[1027px] h-[518px] mx-[170px] mt-[74px]">
+        <header class=" h-[42px] flex items-center justify-between">
+            <div class="flex items-center font-medium text-3xl">
+                <p class="text-white"><span class="purplet">#</span>projects</p>
+                <div class="w-[511px] h-[1px] bg-[rgba(199,120,221,1)] mt-3 mx-4"></div>
+            </div>
+            <button class="text-2xl text-white">View all ~~></button>
+        </header>
+        <div class="w-[1023.74px] h-[428px] gap-4 flex"> 
+            <div class="w-[330.58px] h-[391px] border greyb mt-12">
+                <img class="w-[330.58px] h-[201px]" src="Images/robin-mikalsen-g3iGIQSvwGQ-unsplash.jpg" alt="">
+                <ul class="h-[37px] flex gap-2 font-normal text-base border-b border-t border-[rgba(171,178,191,1)] p-2">
+                    <li class="greyt ml-2">Python</li>
+                </ul>
+                <div class="h-[153px] ">
+                    <p class="h-[31px] text-white flex items-center p-2 ml-2 text-base">Horror</p>
+                    <p class="h-[21px] greyt flex items-center text-sm p-4">Qo'rqinchli uyga kichik sayohat</p>
+                    <div class="flex w-[244px] h-[37px] m-4 justify-between">
+                        <button class="w-[109px] text-white items-center justify-center border purpleb">Live <~></button>
+                        <a class="w-[119px] h-[37px] border greyb greyt flex" href="/Zip/main.zip" download=""><p class="my-1 mx-4">Download</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[330.58px] h-[400px] border greyb mt-12">
+                <img class="h-[201px] w-[330.58px]" src="Images/starbucks.jpg" alt="">
+                <ul class="w-[330.58px] flex gap-2  greyt  border-b border-t greyb">
+                    <li class="ml-2">Html</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+                <div>
+                    <p class="w-[298.58px] h-[31px] text-white m-4 font-medium text-2xl" >Starbucks</p>
+                    <p class="greyt font-normal text-base m-4">Starbucks birinchi beti</p>
+                    <div class="flex w-[244px] h-[37px] m-4 justify-between">
+                        <button class="w-[109px] text-white items-center justify-center border purpleb">Live <~></button>
+                        <a class="w-[119px] h-[37px] border greyb greyt flex" href="/Zip/Starbucks.zip" download=""><p class="my-1 mx-4">Download</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[330.58px] h-[422px] mt-12 border greyb">
+                <img class="w-[330.58px] h-[201px]" src="Images/vivi.jpg" alt="">
+                <ul class="border-b greyb flex gap-2 greyt border-t greyb"> 
+                    <li class="ml-2">CSS</li>
+                    <li>Html</li>
+                    <li>Animation</li>   
+                </ul>
+                <div class="m-4">
+                    <p class="font-medium text-2xl text-white ">Vivi</p>
+                    <p class="greyt mt-4">Vivi maktab (animatsiya bilan)</p>
+                    <div class="flex w-[270px] h-[37px] mt-6 justify-between">
+                        <button class="w-[109px] text-white items-center justify-center border purpleb">Live <~></button>
+                        <a class="w-[119px] h-[37px] border greyb greyt flex" href="/Zip/Vivi.zip" download=""><p class="my-1 mx-4">Download</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--skills-->
+    <div class="w-[1024px] h-[365px]  mx-[171px] mt-[106px] ">
+        <header class=" h-[42px] flex items-center justify-between">
+            <div class="flex items-center font-medium text-3xl">
+                <p class="text-white"><span class="purplet">#</span>skills</p>
+                <div class="w-[239px] h-[1px] bg-[rgba(199,120,221,1)] mt-3 mx-4"></div>
+            </div>
+        </header>
+        <div class="w-[1024px] h-[323px] flex mt-3">
+            <div class="w-[349px] h-[282px] ">
+                <!--point (js)-->
+                <div id="bot" class="grid grid-cols-5 gap-[10.75px] w-[63px] h-[63px] mt-[38px]">
+                    <script>
+                        const grid = document.getElementById('bot');
+                        for (let i = 0; i < 5 * 5; i++) {
+                            const dot = document.createElement('div');
+                            dot.className = "w-[4px] h-[4px] bg-[rgba(171,178,191,1)] rounded-full";
+                            grid.appendChild(dot);
+                        }
+                    </script>
+                </div>
+                <!--logo-->
+                <div class="w-[113px] h-[113px]  mt-[68px] ml-[15px] flex">
+                    <div class="w-[56.5px] h-[84.75px] border-t border-b border-l purpleb mt-[28.25px]">
+                        <div class="h-[28.25px] w-[28.25px] border purpleb mt-[27.3px] ml-[28.25px]" ></div>
+                        <div class="h-[28.25px] w-[28.25px] border-r purpleb  ml-[28.25px]" ></div>
+                    </div>
+                    <div class="w-[56.5px] h-[84.75px] border purpleb ">
+                        <div class="h-[29.25px] w-[28.25px] border-t border-r border-b purpleb mt-[27.3px] " ></div>
+                    </div>
+                </div>
+                <!--point-2 (no js)-->
+                <div class="grid grid-cols-5 gap-[7px] w-[63px] h-[63px] ml-[177px] mt-[-139px]">
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                    <div class="w-[4px] h-[4px] bg-gray-400 rounded-full"></div>
+                </div>
+                <!--big-square-->
+                <div class="h-[86px] w-[86px] border greyb ml-[227px] mt-[-196px]"></div>
+                <!--small-square-->
+                <div class="h-[52px] w-[52px] border greyb ml-[287px] mt-[107px]"></div>
+            </div>
+            <div class="w-[584px] h-[280px] mt-[43px] ml-[59px] grid grid-cols-3 grid-rows-2 gap-4">
+                <!--Languages-->
+                <div class="w-[178px] h-[103px] border greyb mx-4 row-span-2 col-span-1">
+                    <p class="h-[37px] border-b greyb font-semibold text-base p-2 text-white">Languages</p>
+                    <ul class="greyt flex gap-2 ">
+                        <li class="ml-2">C++</li>
+                        <li>Java</li>
+                    </ul>
+                    <ul class="greyt flex gap-2">
+                        <li class="ml-2">Python</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                 <!--2-databases-->
+                 <div class="w-[178px] h-[103px] border greyb mx-4 ">
+                    <p class="h-[37px] border-b greyb font-semibold text-base p-2 text-white">Databases</p>
+                    <ul class="greyt flex gap-2 ">
+                        <li class=" mx-auto my-[18.5px] text-xl">None</li>
+                </div>
+                <!--1-Tools-->
+                <div class="w-[196px] h-[132px] border greyb ml-4">
+                    <p class="h-[37px] border-b greyb font-semibold text-base p-2 text-white">Tools</p>
+                    <ul class="greyt flex gap-2 ">
+                        <li class="ml-2">VSCode</li>
+                        <li>Pycharm</li>
+                        <li>IJ</li>
+                    </ul>
+                    <ul class="greyt flex gap-2">
+                        <li class="ml-2">Figma</li>
+                        <li>Framer</li>
+                        <li>Git Hub</li>
+                    </ul>
+                    <ul class="greyt flex gap-2">
+                        <li class="ml-2">Java</li>
+                        <li>Tailwind</li>
+                        <li>Clion</li>
+                    </ul>
+                </div>
+                <!--Other-->
+                <div class="w-[178px] h-[103px] border greyb mx-4 mt-[-24px]">
+                    <p class="h-[37px] border-b greyb font-semibold text-base p-2  text-white">Other</p>
+                    <ul class="greyt flex gap-2 ">
+                        <li class="ml-2">HTML</li>
+                        <li>CSS</li>
+                        <li>SCSS</li>
+                    </ul>
+                    <ul class="greyt flex gap-2">
+                        <li class="ml-2">Rest</li>
+                        <li>Jinja</li>
+                    </ul>
+                </div>
+                <!--Frameworks-->
+                <div class="w-[196px] h-[132px] border greyb ml-4">
+                    <p class="h-[37px] border-b greyb font-semibold text-base p-2 text-white">Frameworks</p>
+                    <ul class="greyt flex gap-2 ">
+                        <li class="ml-2">React</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                    <ul class="greyt flex gap-2">
+                        <li class="ml-2">Disnake</li>
+                        <li>Discord.js</li>
+                    </ul>
+                    <ul class="greyt flex gap-2">
+                        <li class="ml-2">Flask</li>
+                        <li>Express.js</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <!--about me-->
+    <div class="w-[1025px] h-[508px] mt-28 ml-[170px]">
+        <header class=" h-[42px] flex items-center ">
+            <div class="flex items-center font-medium text-3xl">
+                <p class="text-white"><span class="purplet">#</span>about-me</p>
+                <div class="w-[326px] h-[1px] bg-[rgba(199,120,221,1)] mt-3 mx-4"></div>
+            </div>
+        </header>
+        <div class="flex">
+            <div class=" w-[512px] h-[376px] greyt mt-[23px]  ml-[1px] ">
+                <p class="leading-[26px] text-base">Salom, men Nusratilla! <br>
+                    <br> 
+                    Toshkentda faoliyat yurituvchi, o‘z-o‘zini o‘rgangan front-end va <br> 
+                    back-end dasturchiman. Men noldan moslashuvchan va zamonaviy <br>
+                    veb-saytlar yaratib, ularni foydalanuvchilar uchun qulay, tezkor va <br> 
+                    jozibador platformalarga aylantirishga harakat qilaman. <br>
+                     <br> 
+                     Dasturlash men uchun shunchaki ish emas, balki uch yildan beri
+                      hayotimning ajralmas qismiga aylangan ehtirosdir. Turli dasturlash 
+                      tillarini o‘rganish va ularni amaliyotda sinab ko‘rishdan 
+                      zavqlanaman. Doimiy ravishda yangi texnologiyalar va frameworklar 
+                      bilan ishlashga qiziqaman va o‘sib borishga intilaman.</p>
+                <button class="w-[148px] h-[37px] text-white border purpleb mt-[27px]">Read more -></button>
+            </div>
+            <div class="w-[343px] h-[508px] bg-[url('/Images/Group50.svg')] mx-auto mt-[-42px]"></div>
+        </div>
+    </div>
+    <!--contacts-->
+    <div class="w-[1023px] h-[228px] mt-[122px] ml-[170px]">
+        <header class=" h-[42px] flex items-center ">
+            <div class="flex items-center font-medium text-3xl">
+                <p class="text-white"><span class="purplet">#</span>contacts</p>
+                <div class="w-[127px] h-[1px] bg-[rgba(199,120,221,1)] mt-3 mx-4"></div>
+            </div>
+        </header>
+        <div class="h-[186px] mt-[45px] flex">
+            <p class="w-[505] h-[63px] greyt font-medium text-base ">
+                Frilans imkoniyatlariga qiziqaman. Biroq, <br>
+                boshqa so‘rov yoki savolingiz bo‘lsa, <br>
+                 bemalol bog‘laning.</p>
+            <div class="w-[204px] h-[141px] border greyb ml-[314px]">
+                <p class="w-[144px] h-[21px] font-semibold text-white text-base m-4">Bog`lanish uchun</p>
+                <div class="ml-4 flex greyt"> <img class="w-8 h-8 "  src="Images/Discord.svg" alt=""> <p class="ml-1">nusratilla_03664</p></div>
+                <div class="ml-4 flex greyt mt-2"> <img class="w-8 h-8 "  src="Images/Email.svg" alt=""> <p class="m-1">puo24n@gmail.com</p></div>
+            </div>
+        </div>
+    </div>
+    <!--end-->
+    <div class="w-full h-[208px] border-t greyb mt-[145px] ">
+        <div class="w-[1025px] h-[144px] mx-[170.5px] my-8 ">
+            <div class="flex">
+                <div>
+                    <div class="flex gap-6">
+                        <div class="text-white flex items-center"><img class="w-4 h-4" src="Images/Logo.svg" alt=""><p class="ml-[9px] text-[rgb(255,215,0)]">Nusratilla</p></div>
+                        <p class="greyt">nusratilla12@gmail.com</p>
+                    </div>
+                    <p class="text-white font-medium text-base mt-4">Back-end and front-end developer</p>
+                </div>
+                <div class="w-[112px] h-[75px] ml-[567px] ">
+                    <p class="text-white">Media</p>
+                    <img class="mt-3" src="Images/Group22.svg" alt="">
+                </div>
+            </div>
+            <p class="w-[298px] h-[21px] greyt font-normal text-base mt-12 mx-auto">© Copyright 2025. Made by Nusratilla</p>
+        </div>
+    </div>
+</body>
+
+</html>
