@@ -1,0 +1,244 @@
+#contactme:hover {
+    transition: 0.5s;
+    background-color: #c778dd;
+    color: #282c33;
+    border-radius: 10%;
+}
+#project_1:hover {
+    transition: 0.5s;
+    background-color: #c778dd;
+    color: #282c33;
+    border-radius: 10%;
+}
+#project_2:hover {
+    transition: 0.5s;
+    background-color: #c778dd;
+    color: #282c33;
+    border-radius: 10%;
+}
+#project_3:hover {
+    transition: 0.5s;
+    background-color: #c778dd;
+    color: #282c33;
+    border-radius: 10%;
+}
+#skils:hover, #skils:hover * {
+    transition: 0.5s;
+    background-color: #36D1DC;
+    color: #374151 !important;
+    border-color: #4F46E5;
+}
+
+#otasiporto {
+    background-color: #282c33;
+}
+
+#otasiporto:hover {
+    background-color: #c778dd;
+    transition: 0.5s;
+
+}
+
+.fadeOut {
+    opacity: 0;
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#kkkxx {
+    transition: all 3s ease;
+}
+
+.box {
+    animation: scale infinite linear 6s;
+}
+
+.box2 {
+    animation: scale2 infinite linear 6s;
+}
+
+.box3 {
+    animation: scale3 infinite linear 6s;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1.01);
+    }
+
+    25% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1.01);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+
+
+}
+
+@keyframes scale2 {
+    0% {
+        transform: scale(1.01);
+    }
+
+    25% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1.01);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+
+
+}
+
+@keyframes scale3 {
+    0% {
+        transform: scale(1.01);
+    }
+
+    25% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1.01);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+}
+
+.box_1 {
+    animation: scale_1 infinite linear infinite;
+}
+
+.box_2 {
+    animation: scale_2 infinite linear 10s;
+}
+
+.box_3 {
+    animation: scale_3 infinite linear 10s;
+}
+
+.box_4 {
+    animation: scale_4 infinite linear 10s;
+}
+
+.box_5 {
+    animation: scale_5 infinite linear 10s;
+}
+
+@keyframes scale_1 {
+    0% {
+        transform: scale(1.01);
+    }
+
+    25% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1.01);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scale_2 {
+    0% {
+        transform: scale(1.01);
+    }
+
+    25% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1.01);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scale_3 {
+    0% {
+        transform: scale(1.01);
+    }
+
+    25% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1.01);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scale_4 {
+    0% {
+        transform: scale(1.01);
+    }
+
+    25% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1.01);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scale_5 {
+    0% {
+        transform: scale(1.01);
+    }
+
+    25% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1.01);
+    }
+
+    75% {
+        transform: scale(1);
+    }
+}
+
+.readmore:hover {
+    transition: 0.5s;
+    background-color: #c778dd;
+    color: #282c33;
+    border-radius: 10%;
+}
